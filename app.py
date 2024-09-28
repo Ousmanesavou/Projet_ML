@@ -36,7 +36,7 @@ st.markdown(
     """, unsafe_allow_html=True)
 
 # Logo de l'application (facultatif)
-st.sidebar.image(r"C:\Users\hp\Projet_ML\logo_orange.png", use_column_width=True)
+st.sidebar.image("logo_orange.png", use_column_width=True)
 
 # Barre latérale pour le chargement du fichier et la configuration
 st.sidebar.title("🔧 Configuration")
